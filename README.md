@@ -70,9 +70,8 @@ For this demo lets say I have a folder called controllers with a demo.php
 index.php:
 
 ```php
-require('vendor/autoload.php');
 
-use NoahBuscher\Route\Route;
+use core\lib\Route;
 
 Route::get('/', 'Controllers\demo@index');
 Route::get('page', 'Controllers\demo@page');
